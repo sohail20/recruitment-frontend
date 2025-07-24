@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: 'http://localhost:5000/api', // Pointing to backend
+  baseURL: 'https://nodejs-serverless-function-express-ruby-rho.vercel.app/api', // Pointing to backend
 });
